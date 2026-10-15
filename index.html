@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of James Brian Magistrado, Information Technology graduate and aspiring full-stack developer." />
+  <title>James Brian Magistrado | IT Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="James Magistrado home"><span class="brand-mark">JM</span><span>James Magistrado<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a>
+        <a class="nav-cta" href="#contact">Contact me <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</div>
+          <p class="hero-kicker">INFORMATION TECHNOLOGY · FULL-STACK DEVELOPMENT</p>
+          <h1>Hi, I'm James.<br><span>I build useful</span><br><span class="accent-text">digital experiences.</span></h1>
+          <p class="hero-description">An IT graduate who enjoys turning ideas into practical web applications — from clean interfaces to reliable back-end systems.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+            <a class="button button-secondary" href="cv.pdf" download>Download CV <span>↓</span></a>
+          </div>
+          <div class="hero-meta"><span>Based in Iriga City, Philippines</span><span class="meta-separator">·</span><span>BS Information Technology, 2026</span></div>
+        </div>
+        <div class="hero-art" aria-label="Decorative initials and development-themed graphic">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-card">
+            <div class="art-card-top"><span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span><span class="art-file">portfolio.js</span></div>
+            <div class="code-lines">
+              <p><span class="code-purple">const</span> developer = {</p>
+              <p class="indent"><span class="code-blue">name</span>: <span class="code-green">'James'</span>,</p>
+              <p class="indent"><span class="code-blue">focus</span>: <span class="code-green">'Full-stack'</span>,</p>
+              <p class="indent"><span class="code-blue">curious</span>: <span class="code-orange">true</span>,</p>
+              <p>};</p>
+              <p class="code-comment">// Always learning, always building.</p>
+            </div>
+            <div class="art-signature">JM<span>.</span></div>
+          </div>
+          <div class="floating-chip chip-top">{"</>"} &nbsp; Build</div>
+          <div class="floating-chip chip-bottom"><span class="chip-spark">✳</span> Learn · Improve · Repeat</div>
+        </div>
+      </div>
+      <div class="hero-bottom-line container"><span>SELECTED WORK & EXPERIENCE</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div class="section-heading"><p class="section-label">01 / ABOUT</p><h2>Curious by nature.<br><span>Practical by design.</span></h2></div>
+        <div class="about-content">
+          <p class="large-copy">I'm James Brian Magistrado, a BSIT graduate and Dean's Lister with hands-on experience building full-stack web applications and supporting day-to-day IT operations.</p>
+          <p>My work spans frontend interfaces, backend APIs, databases, and testing. For my capstone project, I developed TRACKNOTIFY, an RFID-based attendance system with automated Gmail notifications. I value thoughtful problem-solving, clear communication, and continuous learning.</p>
+          <div class="stats-row"><div><strong>2022–2026</strong><span>IT Education</span></div><div><strong>Full-stack</strong><span>Project experience</span></div><div><strong>Always</strong><span>Learning mindset</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading section-heading-wide"><p class="section-label">02 / TOOLKIT</p><h2>Skills & <span>technologies.</span></h2><p class="section-intro">A versatile toolkit for building, testing, deploying, and supporting digital solutions.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon">⌘</div><h3>Programming</h3><p>Java, C++, C#, Python, JavaScript, TypeScript, PHP</p></article>
+          <article class="skill-card"><div class="skill-icon">◫</div><h3>Frontend</h3><p>HTML5, CSS3, ReactJS, NextJS, Tailwind CSS, Shadcn/UI</p></article>
+          <article class="skill-card"><div class="skill-icon">⌁</div><h3>Backend & APIs</h3><p>Node.js, ExpressJS, Spring Boot, Laravel, ASP.NET Core, REST APIs</p></article>
+          <article class="skill-card"><div class="skill-icon">▤</div><h3>Data & Databases</h3><p>MySQL, PostgreSQL, Microsoft Access, Airtable, ExcelJS</p></article>
+          <article class="skill-card"><div class="skill-icon">⌕</div><h3>Tools & Testing</h3><p>Git, GitHub, VS Code, Postman, XAMPP, npm, Maven, Composer, Docker</p></article>
+          <article class="skill-card"><div class="skill-icon">✳</div><h3>Other Technologies</h3><p>JavaFX, Tkinter, Java Swing, WordPress, Vercel, Render, TiDB, Zapier, ESP32</p></article>
+          <article class="skill-card"><div class="skill-icon">▧</div><h3>Productivity & Design</h3><p>Microsoft Office, Figma, Canva, Draw.io</p></article>
+          <article class="skill-card"><div class="skill-icon">⌘</div><h3>IT Support & Systems</h3><p>Computer networking, Windows, technical support, documentation</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading section-heading-wide"><p class="section-label">03 / SELECTED WORK</p><h2>Projects that solve <span>real problems.</span></h2><p class="section-intro">A closer look at my capstone project and the technologies behind it.</p></div>
+        <article class="project-card">
+          <div class="project-visual">
+            <div class="dashboard-window">
+              <div class="dashboard-bar"><span></span><span></span><span></span><b>TRACKNOTIFY / DASHBOARD</b></div>
+              <div class="dashboard-content"><div class="dash-greeting">Attendance overview <span>● LIVE CONCEPT</span></div><div class="dash-stats"><div><small>Attendance</small><strong>Records</strong><i></i></div><div><small>RFID</small><strong>Scan</strong><i></i></div><div><small>Alerts</small><strong>Gmail</strong><i></i></div></div><div class="dash-table"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+            </div>
+            <div class="project-number">01</div>
+          </div>
+          <div class="project-info">
+            <p class="project-type">CAPSTONE PROJECT · WEB APPLICATION</p><h3>TRACKNOTIFY</h3>
+            <p>A web-based attendance management system that records RFID scans and automatically sends Gmail notifications. Designed to make attendance tracking more convenient and timely.</p>
+            <div class="tag-list"><span>ReactJS</span><span>ExpressJS</span><span>PostgreSQL</span><span>Python</span><span>Tkinter</span></div>
+            <div class="project-links"><a href="https://expert-octo-funicular-zeta.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo <span>↗</span></a><a href="https://github.com/Vagrato/expert-octo-funicular" target="_blank" rel="noopener noreferrer">Frontend repo <span>↗</span></a><a href="https://github.com/Vagrato/Backend_tracknotif" target="_blank" rel="noopener noreferrer">Backend repo <span>↗</span></a></div>
+          </div>
+        </article>
+        <div class="more-work"><span>MORE PROJECTS COMING SOON</span><span class="more-work-line"></span><span>IN PROGRESS ↗</span></div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container two-column">
+        <div class="section-heading"><p class="section-label">04 / EXPERIENCE</p><h2>Learning by<br><span>doing the work.</span></h2><p class="section-intro">Hands-on experience in a campus environment, supporting both people and technology.</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-marker"></div><div class="timeline-meta"><span>FEB — MAY 2026</span><span class="timeline-type">INTERNSHIP</span></div><h3>IT Support Intern</h3><p class="timeline-company">Ceguera Technological Colleges</p><ul><li>Managed student records and assisted with enrollment and documentation.</li><li>Provided technical support during campus events and helped prepare AV equipment.</li><li>Created promotional graphics and flyers for school activities.</li><li>Collaborated with faculty and administrative staff on daily operations.</li></ul></article>
+          <article class="timeline-item education-item"><div class="timeline-marker"></div><div class="timeline-meta"><span>2022 — 2026</span><span class="timeline-type">EDUCATION</span></div><h3>Bachelor of Science in Information Technology</h3><p class="timeline-company">Ceguera Technological Colleges</p><p class="timeline-note">Dean's Lister</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card">
+        <div><p class="section-label">05 / LET'S CONNECT</p><h2>Have an opportunity<br>in mind? <span>Let's talk.</span></h2><p class="contact-copy">I'm interested in opportunities where I can contribute, keep learning, and grow as a developer and IT professional.</p></div>
+        <div class="contact-details"><a href="mailto:jambymags@gmail.com"><span>Email</span><strong>jambymags@gmail.com ↗</strong></a><a href="tel:09505462355"><span>Phone</span><strong>0950 546 2355 ↗</strong></a><a href="https://www.linkedin.com/in/james-brian-magistrado-28a6a6378/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>Connect with me ↗</strong></a><a href="https://github.com/Vagrato" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>github.com/Vagrato ↗</strong></a><a class="contact-download" href="cv.pdf" download><span>Resume</span><strong>Download my CV ↓</strong></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">JM</span><span>James Magistrado<span class="brand-dot">.</span></span></a><p>Designed with care · <span id="year"></span> James Brian Magistrado</p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+</body>
+</html>
